@@ -4,15 +4,18 @@ This Java program provides a console-based Student Management System that allows
 Here's a detailed breakdown of the code:
 
 1. Package and Imports:
-package com.prathmesh.Student_management_system;: Defines the package where this class resides.
-import java.util.List;: Imports the List interface for handling collections of student objects.
-import java.util.Scanner;: Imports the Scanner class to accept user input.
+package com.prathmesh.Student_management_system;
+: Defines the package where this class resides.
+import java.util.List;
+: Imports the List interface for handling collections of student objects.
+import java.util.Scanner;
+: Imports the Scanner class to accept user input.
 
-2. Main Class and Method:
+3. Main Class and Method:
 Class Main_app: The entry point of the application.
 main() Method: Contains the logic to interact with the user and manage student data.
 
-3. Program Flow and Features:
+4. Program Flow and Features:
 a. Welcome Message and Menu Display:
 Displays a welcome message.
 Provides a menu with six options:
@@ -22,11 +25,14 @@ Update Student
 Delete Student
 Search Student
 Exit
+
 b. Menu Options and Functionalities:
-Infinite Loop (while(true)): Keeps displaying the menu until the user chooses to exit.
+Infinite Loop (while(true)):
+Keeps displaying the menu until the user chooses to exit.
 
 User Input Handling:
-int userInput = sc.nextInt(); captures the user's choice.
+int userInput = sc.nextInt();
+captures the user's choice.
 
 4. Case-Wise Breakdown:
 Case 1: Add New Student
@@ -45,6 +51,7 @@ Displays the student’s current details.
 Provides options to update specific fields: First Name, Last Name, Department, or Gender.
 Updates the selected field using setter methods.
 Calls updateRecords() to save changes.
+
 Case 4: Delete Student
 
 Prompts for the Roll Number of the student to delete.
